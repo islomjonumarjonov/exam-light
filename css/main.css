@@ -1,0 +1,251 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins more";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins+";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 6.25%;
+}
+
+body {
+  height: 100%;
+  letter-spacing: 1rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 1440rem;
+  gap: 45rem;
+  height: 100%;
+  background-image: url("../images/background.png");
+}
+
+.hero__left-title {
+  max-width: 525rem;
+  font-family: "Poppins bold";
+  font-size: 50rem;
+  line-height: 55rem;
+  letter-spacing: -0.52rem;
+  color: #ffffff;
+  margin-bottom: 20rem;
+}
+.hero__left-des {
+  max-width: 525rem;
+  font-family: "Poppins more";
+  font-size: 16rem;
+  line-height: 26rem;
+  color: #ffffff;
+  letter-spacing: 0rem;
+}
+
+.hero__right-warning,
+span {
+  font-weight: 300;
+  font-size: 15rem;
+  line-height: 26rem;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+
+.hero__right-warning {
+  background-color: #5e54a4;
+  -webkit-box-shadow: 0rem 8rem 0rem rgba(0, 0, 0, 0.14688);
+  box-shadow: 0rem 8rem 0rem rgba(0, 0, 0, 0.14688);
+  border-radius: 10rem;
+  padding: 17rem 112rem;
+  font-family: "Poppins";
+  margin-bottom: 24rem;
+}
+
+span {
+  font-size: 15rem;
+  font-family: "Poppins bold";
+}
+
+.hero__right-blank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
+  -webkit-box-shadow: 0rem 8rem 0rem rgba(0, 0, 0, 0.14688);
+  box-shadow: 0rem 8rem 0rem rgba(0, 0, 0, 0.14688);
+  border-radius: 10rem;
+  padding-top: 40rem;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #5e54a4;
+  border-radius: 5px;
+  padding: 15rem 0;
+  padding-left: 32rem;
+  margin: 0 auto;
+  display: block;
+  width: 460rem;
+  height: 56rem;
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  margin-bottom: 20rem;
+}
+
+input::-webkit-input-placeholder {
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+input::-moz-placeholder {
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+input:-ms-input-placeholder {
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+input::-ms-input-placeholder {
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+input::placeholder {
+  font-family: "Poppins+";
+  font-size: 14rem;
+  line-height: 26rem;
+  letter-spacing: 0.25rem;
+  color: #3d3b48;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  padding: 15rem 135rem;
+  font-family: "Poppins+";
+  font-size: 15rem;
+  line-height: 26rem;
+  letter-spacing: 1rem;
+  color: #ffffff;
+  background: #38cc8b;
+  -webkit-box-shadow: inset 0rem -4rem 0rem rgba(0, 0, 0, 0.0908818);
+  box-shadow: inset 0rem -4rem 0rem rgba(0, 0, 0, 0.0908818);
+  border-radius: 5rem;
+  margin-bottom: 8rem;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #77e2b3;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  border-radius: 5px;
+}
+
+.hero__right-blank__des,
+.span {
+  font-family: "Poppins more";
+  font-size: 11rem;
+  line-height: 26rem;
+  text-align: center;
+  color: #bab7d4;
+  margin-bottom: 40rem;
+  letter-spacing: normal;
+}
+
+.span {
+  color: #ff7979;
+  font-family: "Poppins bold";
+}
